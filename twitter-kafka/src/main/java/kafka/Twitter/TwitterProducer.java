@@ -33,8 +33,7 @@ public class TwitterProducer {
     String token = "";
     String secret = "";
 
-    //String bootstrap_server = "127.0.0.1:9092";
-    String bootstrap_server = "host-10-17-103-171.coe.cloudera.com:9092";
+    String bootstrap_server = "127.0.0.1:9092";
     String topic = "twitter_topic";
 
     public static void main(String[] args) {
