@@ -28,10 +28,10 @@ public class TwitterProducer {
 
     Logger logger = LoggerFactory.getLogger(TwitterProducer.class);
 
-    String consumerKey = "Pe8YLSOFAHEgYrH4MA43oHCnM";
-    String consumerSecret = "bw3bDqJcmm2zJw8kbdYaVFi6ooeMwsijKs7vynAeja6lejuoeY";
-    String token = "802255273-JZfLn6jIRhzZABa97X2pC7n9XlHMH1X1SFLNGbbF";
-    String secret = "Ts9S4ZYyBUfypAzaUDzaALZ5aWrqRg6zUYrKleBIHICku";
+    String consumerKey = "";
+    String consumerSecret = "";
+    String token = "";
+    String secret = "";
 
     //String bootstrap_server = "127.0.0.1:9092";
     String bootstrap_server = "host-10-17-103-171.coe.cloudera.com:9092";
