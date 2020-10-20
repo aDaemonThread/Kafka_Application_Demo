@@ -33,9 +33,9 @@ public class ElasticSearchConsumerBatchProcessing {
 
     public static RestHighLevelClient client(){
 
-        String hostname = "ankit-kafka-consumer-3301047150.ap-southeast-2.bonsaisearch.net";
-        String username = "nz2v6a4tny";
-        String password = "t59c7hw9i8";
+        String hostname = "ankit-kafka-consumer-hostname";
+        String username = "username";
+        String password = "password";
 
         final CredentialsProvider credentialsProvider = new BasicCredentialsProvider();
         credentialsProvider.setCredentials(AuthScope.ANY, new UsernamePasswordCredentials(username,password));
